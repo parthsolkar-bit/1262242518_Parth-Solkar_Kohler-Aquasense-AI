@@ -1,0 +1,11 @@
+Telemetry: water flow + occupancy + flush count + sensor health
+        ↓
+Expected-flow baseline + feature processing
+        ↓
+Isolation Forest ML + context-aware leak rule
+        ↓
+Wastage estimation + severity + probable cause
+        ↓
+Dashboard + maintenance ticket + facility assistant
+
+Production: live sensors → MQTT/API → time-series DB → ML service → CMMS.
